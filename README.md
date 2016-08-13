@@ -1,4 +1,4 @@
-# UnipaAPI
+# Unipa-API
 Unipa Unofficial API from [UNIPA in tasca](https://play.google.com/store/apps/details?id=it.aranciaict.unipaintasca)
 
 # CAS
