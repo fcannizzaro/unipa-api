@@ -18,6 +18,7 @@ body    -> { service }
 ```
 
 # Routes
+Use cookies to keep CAS service authorization.
 
 ```
 url     -> {{service}}?ticket={{ticket}},
@@ -41,13 +42,18 @@ to_encrypt = lingua=ITA2000000
 key = 405610f9c526ac061b765f227f7d600f45d57c677003180160fc278384d10395
 ```
 
-# Available Routes
+# API Services
 @Base https://studentiws.unipa.it/v2
 
 ## Menu
 ```
 url   -> /menu.php,
 query -> { lingua	}
+```
+
+## User Info
+```
+url   -> /user.php
 ```
 
 ## Libretto
@@ -85,3 +91,11 @@ url -> /fotoStudente.php,
 query -> { matricola }
 ```
 
+# Unipa Not-API Services
+Use html scraping.
+
+## Pratiche
+
+```
+url -> http://immaweb.unipa.it/immaweb/private/pratiche/listPratiche.seam
+```
